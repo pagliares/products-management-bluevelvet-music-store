@@ -1,0 +1,18 @@
+/* Remove default margin 
+This CSS markup snippet applies styles to all elements on a webpage:
+margin: 0;: Sets the margin of all elements to 0, removing any default margin.
+padding: 0;: Sets the padding of all elements to 0, removing any default padding.
+font: inherit;: Sets the font of all elements to inherit from their parent element, ensuring consistent font styles throughout the document
+
+
+ it's a common practice to include a CSS reset or normalize stylesheet at the beginning of creating a CSS stylesheet and corresponding HTML page. These reset styles help ensure consistency in how different browsers render HTML elements by removing their default styling, such as margins, paddings, and font sizes.
+
+Including such a reset or normalize stylesheet can save you time and effort in the long run, as it provides a consistent starting point for styling your webpage across different browsers and devices. It helps avoid unexpected layout discrepancies caused by browser defaults.
+
+*/
+
+  * {
+    margin:0;
+    padding: 0;
+    font:inherit;
+  }
