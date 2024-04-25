@@ -11,8 +11,21 @@ Including such a reset or normalize stylesheet can save you time and effort in t
 
 */
 
-  * {
-    margin:0;
-    padding: 0;
-    font:inherit;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Box sizing rules 
+  This CSS snippet is another common practice often included at the beginning of creating a CSS stylesheet. It sets the box-sizing property to border-box for all elements, pseudo-elements (::before and ::after), ensuring that the width and height properties include the padding and border of an element, rather than adding to its dimensions.
+
+By setting box-sizing to border-box globally, you simplify layout calculations and ensure more predictable and consistent behavior across different elements. It helps prevent unexpected layout issues that may arise due to inconsistent box models across browsers. Overall, including this rule can contribute to a smoother development process and more robust styling for your HTML page.
+  
+  */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
