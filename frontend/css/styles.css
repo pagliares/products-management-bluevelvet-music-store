@@ -23,9 +23,27 @@ Including such a reset or normalize stylesheet can save you time and effort in t
 By setting box-sizing to border-box globally, you simplify layout calculations and ensure more predictable and consistent behavior across different elements. It helps prevent unexpected layout issues that may arise due to inconsistent box models across browsers. Overall, including this rule can contribute to a smoother development process and more robust styling for your HTML page.
   
   */
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
+
+/* Overall, this CSS snippet provides styling for headings by defining their font size and adding a margin at the bottom for better spacing between headings and subsequent content. It offers a convenient way to maintain consistent styling for headings throughout a webpage by applying the .heading class to relevant elements. */
+.heading {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* By applying this class to HTML elements, you can easily center-align text content without needing to specify the alignment individually for each element. It's a convenient way to maintain consistency in text alignment throughout a webpage. */
+.text-center {
+  text-align: center;
+}
+
+/* Overall, this CSS snippet provides a convenient way to apply consistent margin spacing (1.5rem) to elements by simply adding the .mt-4 class to them in the HTML markup. This promotes consistency and maintainability in the styling of the webpage. */
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+ 

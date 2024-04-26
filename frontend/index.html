@@ -6,31 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Management</title>
     <link rel="stylesheet" href="css/styles.css" />
-
   </head>
   <body>
     <header>
-          <h1>Product Management</h1>    
+      <h1>Product Management</h1>
     </header>
 
     <main>
-            <p>Login to your account to continue</p>
+      <div class="text-center mt-4">
+        <p class="heading">Welcome back!</p>
+        <p>Login to your account to continue</p>
+      </div>
 
-            <form action="" id="login-form" method="post">
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="Enter your email"/>
-                <p></p>
+      <form action="" id="login-form" method="post">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+        <p></p>
 
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password"/>
-               
-                <p></p>
-              
-                <input type="checkbox" id="remember" name="remember"/>
-                <label for="remember">Remember me</label>
-                <button type="submit">Login</button>
-             </form>
-             <p>Don't have an account? <a href="#" class="">Register</a></p>
-     </main>
-   </body>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+        />
+
+        <p></p>
+
+        <input type="checkbox" id="remember" name="remember" />
+        <label for="remember">Remember me</label>
+        <button type="submit">Login</button>
+      </form>
+      <p>Don't have an account? <a href="#" class="">Register</a></p>
+    </main>
+  </body>
 </html>
