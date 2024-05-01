@@ -29,6 +29,12 @@ By setting box-sizing to border-box globally, you simplify layout calculations a
   box-sizing: border-box;
 }
 
+/* Remove list styles on ul, ol elements */
+ul,
+ol{
+  list-style: none;
+}
+
 
 /* Overall, this CSS snippet provides styling for headings by defining their font size and adding a margin at the bottom for better spacing between headings and subsequent content. It offers a convenient way to maintain consistent styling for headings throughout a webpage by applying the .heading class to relevant elements. */
 .heading {
@@ -41,9 +47,29 @@ By setting box-sizing to border-box globally, you simplify layout calculations a
   text-align: center;
 }
 
-/* Overall, this CSS snippet provides a convenient way to apply consistent margin spacing (1.5rem) to elements by simply adding the .mt-4 class to them in the HTML markup. This promotes consistency and maintainability in the styling of the webpage. */
+/* 
+This CSS snippet provides a convenient way to apply consistent margin spacing (1.5rem and 1rem) to elements by simply adding the .mt-4 (margin top), .mt-3 (margin top), .mb-4 (margin bottom),or .mb-3 (margin bottom) classes to them in the HTML markup. This promotes consistency and maintainability in the styling of the webpage. 
+*/
 .mt-4 {
   margin-top: 1.5rem;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+ 
+.nav-list {
+  margin-left: 2em; 
+  font-weight: bold;
 }
 
  
