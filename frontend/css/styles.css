@@ -68,17 +68,25 @@ This CSS snippet provides a convenient way to apply consistent margin spacing (1
 
  
 .nav-list {
-  margin-left: 2em; 
   font-weight: bold;
 }
 
 /* Overall, this CSS snippet provides styling for primary headings by defining their font size and setting their font weight to bold. It offers a convenient way to maintain consistent styling for primary headings throughout a webpage by applying the .primary-heading class to relevant elements.
 
 
-font-size: 1.5em;: This line sets the font size of text for elements with the .primary-heading class to 1.5 times the size of the parent element's font size. The em unit is relative to the font size of the parent element. */
+font-size: 1.5em;: This line sets the font size of text for elements with the $primary-heading id to 2 times the size of the parent element's font size. The em unit is relative to the font size of the parent element. */
 #primary-heading{
   font-size: 2em;
   font-weight: bold;
 }
 
+/* Overall, this CSS snippet is commonly used to create a header navigation wrapper that contains navigation elements. It sets up a flex container with the navigation items evenly spaced apart horizontally and centered vertically within the container. This layout is often used for creating navigation bars or headers with a logo or other content on one side and navigation links on the other.
+
+justify-content: space-between;: This property aligns the items inside the flex container along the main axis (horizontal axis in this case) and distributes the space between them. It places the first item at the start of the container and the last item at the end, with equal space between them.
+align-items: center;: This property aligns the items inside the flex container along the cross axis (vertical axis in this case) and centers them vertically within the container. */
+.heading-nav-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
  
