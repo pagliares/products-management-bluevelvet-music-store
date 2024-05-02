@@ -72,4 +72,13 @@ This CSS snippet provides a convenient way to apply consistent margin spacing (1
   font-weight: bold;
 }
 
+/* Overall, this CSS snippet provides styling for primary headings by defining their font size and setting their font weight to bold. It offers a convenient way to maintain consistent styling for primary headings throughout a webpage by applying the .primary-heading class to relevant elements.
+
+
+font-size: 1.5em;: This line sets the font size of text for elements with the .primary-heading class to 1.5 times the size of the parent element's font size. The em unit is relative to the font size of the parent element. */
+#primary-heading{
+  font-size: 2em;
+  font-weight: bold;
+}
+
  
