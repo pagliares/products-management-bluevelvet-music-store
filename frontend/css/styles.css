@@ -64,10 +64,11 @@ This CSS snippet provides a convenient way to apply consistent margin spacing (1
 }
 
 /*
-This styling ensures that any text within elements that have the class .nav-list will appear bold.
+This styling ensures that any text within elements that have the class .nav-list will appear bold and the list item aligned horizontally by flex display.
 */
 
 .nav-list {
+  display: flex;
   font-weight: bold;
 }
 
@@ -101,9 +102,29 @@ justify-content: space-between;: This property aligns the items inside the flex 
 align-items: center;: This property aligns the items inside the flex container along the cross axis (vertical axis in this case) and centers them vertically within the container. 
 */
 
-.heading-nav-wrapper{
+.primary-heading-plus-nav-wrapper{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+
+/* Change background color of the Primary Header
+Overall, this CSS snippet styles elements with the .primary-header class to have a dark background with light text, providing a high contrast and visually appealing design. 
+
+another ways to specify this color to the background:
+background-color: #222e3c;
+background-color: rgb(34, 46, 60);
+background-color: rgba(34, 46, 60, 1);
+background-color: hsl(210, 26%, 18%);
+background-color: var(--clr-primary-300); 
+:root {
+    --clr-primary-300: #222e3c;
+}
+*/
+.primary-header {  
+  background-color: black;
+  color: white;
+ } 
+
  
