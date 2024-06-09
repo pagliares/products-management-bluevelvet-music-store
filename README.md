@@ -19,6 +19,13 @@ You can try the the webapplication without configuring the backend and a MySQL d
 - Spring Boot (including Spring Security)
 - MySQL
 
+## Definition of DONE (Scrum)
+
+A user story is considered completed it if:
+- It meets the acceptance criteria;
+- It "crosses" all layers (view, controller, service, repository, and database) when implemented;
+- The view layer is fully responsive.
+
 ## Requirements
 
 ### US-1050: Add product
@@ -47,9 +54,7 @@ Acceptance criteria:
 - Produt details: Name/value pairs with details for the product. 
       - e.g Track 1 - Karma Police
                Track2 - Airbag
-- Note:
-1. Make Products Page Fully Responsive
-2. Reuse a rich text editor component to ease including the short and full descriptions or use a simple textarea components?
+- Note: Reuse a rich text editor component to ease including the short and full descriptions or use a simple textarea components?
 https://www.jqueryscript.net/text/Rich-Text-Editor-jQuery-RichText.html
 - Automate the creation of some sample products to ease testing (SQL script, programmatically?), including some sample product images
 - Test: Create 3 products
@@ -87,8 +92,6 @@ Acceptance criteria:
 - Test Updating Price -  Remaining information should remain unchanged.
 - Test Updating Overview, Main image, Description & Shipping
 - A form is displayed with the products data already filled in.
-- Note: Make Products Page Fully Responsive
-
 
 ### US-2032: List products for administrators
 
@@ -106,7 +109,6 @@ Acceptance criteria:
 - Filter: search by product name, short description, full description, brand name, and category name
 - The fields main image, product name, brand, and category must be shown
 - To see product details, see US-1045
-- Note: Make Products Page Fully Responsive.
 
 ### US-1045: View product details for administrators
 
@@ -123,7 +125,6 @@ Acceptance criteria:
 - Also delete the product images in procucts-image directory
 - Test Delete a product
 - A message must be displayed asking you whether you want to delete this product or not.
-- Note: Make Products Page Fully Responsive
 
  ### Other requirements
 - Registration
