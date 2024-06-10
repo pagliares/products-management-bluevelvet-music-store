@@ -72,6 +72,16 @@ This styling ensures that any text within elements that have the class .nav-list
   font-weight: bold;
 }
 
+/* 
+Overall, this CSS snippet styles anchor elements within a navigation list (<ul> or <ol>) by setting the text color, removing underlines, and adding padding to create spacing around the text.
+
+text-decoration: none;: This line removes the underline decoration typically applied to anchor elements by default, so the text will not have an underline.
+ */
+ .nav-list a { 
+  color: white;
+  text-decoration: none;
+  padding: 2rem 1.5rem;
+}
 
 /* 
 Overall, this CSS snippet provides styling for headings by defining their font size and adding a margin at the bottom for better spacing between headings and subsequent content. It offers a convenient way to maintain consistent styling for headings throughout a webpage by applying the .heading class to relevant elements. 
